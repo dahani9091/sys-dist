@@ -15,3 +15,6 @@
     - Thread.currentTread.getName() # get thread name
 - synchronized(this), wait, notifyAll (watch BlockingList) 
     - `You can create 2 runnables one for producer and the other for consumer, both they have a while loop to the call function (put -> prod and take -> cons) of the same instance from Blocking List `
+
+# Sockets 
+- TCP (multiClinets)

@@ -22,7 +22,7 @@ public class ReceiverUDP {
 	public void doCommunicateWithClient(int port) throws IOException{
 		
 		DatagramSocket receiverSocket = new DatagramSocket(port);
-		System.out.println("le serveur est sur écoute...");
+		System.out.println("le serveur est sur ï¿½coute...");
 		
 		byte[] receiveData = new byte[1024];
 		byte[] sendData = new byte[1024];
@@ -45,7 +45,7 @@ public class ReceiverUDP {
 			p.setLength(sendData.length);
 			
 			receiverSocket.send(p);
-			System.out.println("le receiver a envoyé un message...");
+			System.out.println("le receiver a envoyï¿½ un message...");
 
 	
 	

@@ -12,4 +12,6 @@
         - ThreadClassName objName = new ThreadClassName(...)
         - Thread thrd1 = new Thread(objName,"name1")
         - Thread thrd2 = new Thread(objName,"name2")
-    - Thread.currentTread.getName() # thread name
+    - Thread.currentTread.getName() # get thread name
+- synchronized(this), wait, notifyAll (watch BlockingList) 
+    - `You can create 2 runnables one for producer and the other for consumer, both they have a while loop to the call function (put -> prod and take -> cons) of the same instance from Blocking List `

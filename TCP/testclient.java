@@ -9,7 +9,7 @@ public class testclient {
             Scanner in = new Scanner(socket.getInputStream());
             PrintWritter out = new PrintWritter(socket.getOutputStream(),true);
     
-            out.println("Bonjour a zbi server");
+            out.println("Bonjour a zbi server hada message mn 3nd client");
 
             String line = in.nextLine();
             if (line != null){
@@ -19,8 +19,6 @@ public class testclient {
             in.close();
             out.close();
             socket.close();
-
-
             
         }
         catch(Exception e){

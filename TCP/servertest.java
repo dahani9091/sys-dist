@@ -8,7 +8,8 @@ public class servertest {
 
             while(true){
                 Socket clientS = serverS.accept();
-                
+                Chandler client_tread = new Chandler(clientS);
+                client_tread.start();
             }
         }
 

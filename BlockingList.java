@@ -8,7 +8,7 @@ public class BlockingList<E>{
 
 
     public BlockingList(int size){
-        this.max = size;
+        this.max = max_size;
         this.queue = new LinkedList<E>();
         this.sharedQ = new Object();
     }

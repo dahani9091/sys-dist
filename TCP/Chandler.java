@@ -17,7 +17,7 @@ public class Chandler {
     
             print("Message from the client: "+line);
 
-            this.socket.close()
+            this.socket.close();
             in.close();
             out.close();
         }
@@ -28,3 +28,4 @@ public class Chandler {
     }
 
 }
+//

@@ -11,12 +11,12 @@ public class Serveur {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		//créer un serrveur qui ecoute sur le 7676
+		//crï¿½er un serrveur qui ecoute sur le 7676
 		try {
 			ServerSocket serveur= new ServerSocket(7676);
 			
 			while(true){
-				System.out.println(" serveur démarré... en attente s'une demande");
+				System.out.println(" serveur dï¿½marrï¿½... en attente s'une demande");
 				Socket demande= serveur.accept(); 
 				
 				System.out.println(" une nouvelle demande recue");
@@ -38,3 +38,4 @@ public class Serveur {
 	}
 
 }
+//

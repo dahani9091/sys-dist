@@ -25,12 +25,12 @@ public class SenderMulticast {
 				String S= (new Scanner(System.in)).nextLine();
 				byte[] sendData=S.getBytes();
 				
-				//mettre les données dans le packet
+				//mettre les donnï¿½es dans le packet
 				DatagramPacket p= new DatagramPacket(sendData, sendData.length, group,6789);
 				
 				System.out.println("le sender est sur le point d'envoyer un msg au groupe:"+group.getHostName());
 				mcs.send(p);
-				System.out.println(" msg envoyé... fermeture");
+				System.out.println(" msg envoyï¿½... fermeture");
 				
 			}
 			//mcs.close();
@@ -39,7 +39,7 @@ public class SenderMulticast {
 				
 			// paquet vide
 			/*DatagramPacket p2 = new DatagramPacket(receiveData, receiveData.length);
-			System.out.println("le client attend la réponse du serveur...");
+			System.out.println("le client attend la rï¿½ponse du serveur...");
 
 			mcs.receive(p2); // client est en attente lorsqu'il a reception p2 sera rempli
 			
@@ -47,12 +47,14 @@ public class SenderMulticast {
 			String s=new String(receiveData, 0, receiveData.length);
 			System.out.println("message recu du group:"+s);
 */
+
+//
 			
 			
 			
 			
 
-		//données à envoyer
+		//donnï¿½es ï¿½ envoyer
 		
 
 		

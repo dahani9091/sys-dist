@@ -40,7 +40,7 @@ public class ReceiverMulticast {
 		}catch (Exception e) {
 			// TODO: handle exception
 			System.out.println(e.getMessage());
-		}
+		}//
 		
 	}
 
